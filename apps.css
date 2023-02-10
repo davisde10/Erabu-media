@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Montserrat', open-sans;
+  background-color: #edede9;
+  position: relative;
+  color: #344e41;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #344e41;
+}
+
+/* Section for Navigation Bar */
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em 5em;
+  overflow: hidden;
+  background-color: #edede9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 6px -4px rgb(156, 156, 156);
+  /* box-shadow: 0 3px 6px -4px rgb(167, 167, 167); */
+}
+
+#joshua_link {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nav_links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding-left: 2.5em;
+  font-size: 2rem;
+}
+/* End of Navigation Bar section */
+
+.intro {
+  width: 50%;
+  margin-top: 27em;
+  padding-left: 1.5em;
+}
+
+.welcome {
+  font-size: 4.5rem;
+  padding-bottom: 0.2em;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.im_josh {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1.5em;
+  padding-left: 0.3em;
+}
+
+.bigger {
+  font-size: 2.3rem;
+}
+.social_media_stats {
+  font-size: 2rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  width: 26em;
+}
+.social_media_stats a:link {
+  max-width: 5.5em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  color: #344e41;
+}
+.social_media_stats a:link:hover {
+  color: #294021;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-0.25em);
+  font-weight: bold;
+}
+
+.tiktokimg {
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  right: 100px;
+  top: -135px;
+  border-radius: 5%;
+  border: 3px solid #344e41;
+  z-index: -1;
+}
+.webullphone {
+  position: absolute;
+  z-index: -1;
+  width: 350px;
+  height: 550x;
+  right: 175px;
+  top: 400px;
+}
+
+.aboutfreestocks {
+  width: 40%;
+  font-size: 2.5rem;
+  margin-top: 10em;
+}
+
+.checkitout,
+.growing_community h2 {
+  padding-bottom: 0.2em;
+}
+
+.freestocksbtn {
+  width: 275px;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 0.5px 10px;
+  font-size: 2rem;
+  background-color: #344e41;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.freestocksbtn:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-0.25em);
+}
+p {
+  font-weight: 300;
+  line-height: 40px;
+}
+/* Wealth club */
+.dollardigest {
+  text-align: center;
+  margin-top: 5em;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.growing_community {
+  font-size: 2.5rem;
+  text-align: right;
+  width: 40%;
+  margin-top: 2.5em;
+  position: absolute;
+  right: 70px;
+  z-index: -1;
+}
+
+.growing_community h2 {
+  margin-bottom: 0.2em;
+  font-weight: 700;
+}
+.emailpic {
+  position: absolute;
+  top: 1010px;
+  left: 30;
+  z-index: -1;
+  width: 550px;
+  height: 430px;
+}
