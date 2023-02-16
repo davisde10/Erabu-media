@@ -69,10 +69,19 @@
         >
       </section>
       <div class="dollardigest">
-        <!-- <h2>Dollar Digest &#36;</h2> -->
         <p>The number one free resoruce I designed for you.</p>
       </div>
-      <div class="growing_community">
+      <img
+        class="emailpic"
+        src="Email_on_computer.png"
+        alt="picture of computer"
+      />
+      <form
+        action="https://app.convertkit.com/forms/4852754/subscriptions"
+        method="post"
+        target="dummyframe"
+        class="growing_community"
+      >
         <h2><strong>Dollar Digest &#36;</strong></h2>
         <p>
           A growing community of over 10,000 readers. Every Sunday I share
@@ -80,7 +89,6 @@
           ideas, and more directly to your inbox. Sign up below and get a free
           budget template!
         </p>
-
         <input
           type="email"
           id="email"
@@ -88,15 +96,50 @@
           placeholder="Email Address"
           required
         />
-        <button type="submit">Try it out</button>
-        <!-- Add email -->
-      </div>
-      <img
-        class="emailpic"
-        src="Email_on_computer.png"
-        alt="picture of computer"
-      />
+        <br />
+        <button type="submit" id="tryitout" onclick="clearForm()">
+          Try it out
+        </button>
+        <!-- <input
+          type="submit"
+          name="tryitout"
+          id="tryitout"
+          value="Try it out"
+        /> -->
+      </form>
+      <section class="watchvideos">
+        <h2>Make sure to watch these!</h2>
+        <p class="watchthese">
+          Some of my best YouTube videos that are sure to help you out.
+        </p>
+        <span class="videos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NdpitwUsFn4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/eprG9dlMV_U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </span>
+      </section>
     </div>
+    <footer>
+      <p>
+        &#169; Copyright 2022 Erabu Media, LLC | All Rights Reserved | Terms &
+        Conditions | Privacy Policy
+      </p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
