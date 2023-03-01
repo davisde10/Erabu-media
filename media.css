@@ -1,0 +1,115 @@
+@media (max-width: 990px) {
+  .intro {
+    margin-top: 125px;
+  }
+  .tiktokimg {
+    left: 0;
+    top: 250px;
+    animation: none;
+  }
+  .aboutfreestocks {
+    margin-top: 600px;
+  }
+  .aboutfreestocks p {
+    width: 50%;
+  }
+  .webullphone {
+    top: -50px;
+    width: 280px;
+    height: auto;
+    right: -30px;
+  }
+  .dollardigest {
+    margin-top: 80px;
+  }
+  .growing_community {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+  }
+  .emailpic {
+    width: 350px;
+    left: 410px;
+    top: 140px;
+    /* display: none; */
+  }
+  .watchthese {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+  .videos {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 790px) {
+  .emailpic {
+    width: 330px;
+    left: 360px;
+    top: 150px;
+    /* display: none; */
+  }
+}
+@media (max-width: 770px) {
+  .tiktokimg {
+    left: 0;
+    top: 300px;
+  }
+  .welcome_friends {
+    font-size: 4.5rem;
+  }
+  .navbar {
+    padding: 20px 20px;
+  }
+  .im_josh {
+    margin-top: 15px;
+  }
+  .aboutfreestocks p {
+    width: 100%;
+  }
+  .emailpic {
+    width: 310px;
+    left: 290px;
+    top: 170px;
+    /* display: none; */
+  }
+  .webullphone {
+    display: none;
+  }
+  .videos iframe {
+    width: 420px;
+    height: 200;
+  }
+  footer {
+    height: 170px;
+  }
+}
+
+@media (max-width: 490px) {
+  .tiktokimg {
+    left: 0;
+    top: 300px;
+  }
+  .welcome_friends {
+    font-size: 3.5rem;
+  }
+  .im_josh {
+    margin-top: 30px;
+  }
+  .videos iframe {
+    width: 285px;
+    height: 180px;
+    margin: 0;
+  }
+  .youtubevid_title p {
+    padding-left: 10px;
+  }
+  .emailpic {
+    display: none;
+  }
+}
